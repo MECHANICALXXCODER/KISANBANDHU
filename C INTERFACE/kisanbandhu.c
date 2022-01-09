@@ -11,8 +11,7 @@ float income,land;
 char start;
 while(1<2)
 {
-again:                                                               
-
+                                                               
 printf("\n\nPLEASE ENTER y TO START/CONTINUE AND n TO STOP\n");
 scanf("%s",&start);
 if(start=='n')
@@ -25,7 +24,7 @@ scanf("%d",&state);
 if (state==3)
 {
   printf("SORRY BUT WE DONT HAVE ANY SUBSIDY INFORMATION FOR YOUR STATE");
-  goto again;
+  continue;
 }
 printf("\nWHAT IS YOUR INCOME(IN LPA) : ");
 scanf("%f",&income);
