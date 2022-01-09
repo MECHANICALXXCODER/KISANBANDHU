@@ -43,16 +43,16 @@ if (state==1)
     {
       if(land<5)
       {
-        printf("\nYOU ARE ELIGIBLE TO CLAIM 10000 Rs PER MONTH BY THE GOVERNMENT\n");
+        printf("\nYOU ARE ELIGIBLE TO CLAIM 10000 Rs PER MONTH BY THE GOVERNMENT AS PER ABC KRISHI YOJNA\n");
       }
       else
       {
-        printf("\nYOU ARE ELIGIBLE TO CLAIM 9000 Rs PER MONTH BY THE GOVERNMENT\n");
+        printf("\nYOU ARE ELIGIBLE TO CLAIM 9000 Rs PER MONTH BY THE GOVERNMENT AS PER DEF EFG KRISHI YOJNA\n");
       }
     }
     else if(caste==2)
     {
-      printf("\nYOU ARE ELIGIBLE TO CLAIM 8000 Rs PER MONTH BY THE GOVERNMENT\n");
+      printf("\nYOU ARE ELIGIBLE TO CLAIM 8000 Rs PER MONTH BY THE GOVERNMENT AS PER MNO KRISHI YOJNA\n");
     } 
     else
     {
@@ -72,16 +72,16 @@ else if (state==2)
     {
       if(land<5)
       {
-        printf("\nYOU ARE ELIGIBLE TO CLAIM 13000 Rs PER MONTH BY THE GOVERNMENT\n");
+        printf("\nYOU ARE ELIGIBLE TO CLAIM 13000 Rs PER MONTH BY THE GOVERNMENT AS PER PQR KRISHI YOJNA\n");
       }
       else
       {
-        printf("\nYOU ARE ELIGIBLE TO CLAIM 10000 Rs PER MONTH BY THE GOVERNMENT\n");
+        printf("\nYOU ARE ELIGIBLE TO CLAIM 10000 Rs PER MONTH BY THE GOVERNMENT AS PER XYZ KRISHI YOJNA\n");
       }
     }
     else if(caste==2)
     {
-      printf("\nYOU ARE ELIGIBLE TO CLAIM 4000 Rs PER MONTH BY THE GOVERNMENT\n");
+      printf("\nYOU ARE ELIGIBLE TO CLAIM 4000 Rs PER MONTH BY THE GOVERNMENT AS PER ABC KRISHI YOJNA \n");
     } 
     else("\nENTER VALID INPUT FOR CASTE\n");
   }  
